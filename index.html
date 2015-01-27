@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Wocudi 2014</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Workshop de comportamiento de usuarios y diseño de interación">
+        <meta name="HandheldFriendly" content="True"><!-- Lo mismo que meta viewport, pero para navegadores obsoletos y más antiguos -->
+        <meta name="MobileOptimized" content="320"><!-- Lo mismo que meta viewport, pero para navegadores obsoletos y más antiguos -->
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><!-- Atributos necesarios para un correcto despliegue del sitio en dispositivos móviles, igualando los pixeles en ancho y adaptandolos a las pantallas,quitando la opción zoom -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- Indica a IE antiguos cómo tiene que visualizar el sitio -->
+        <meta name="format-detection" content="telephone=no"><!-- Deshabilita la detección de teléfonos y mails en dispositivos que tengan Safari -->
+        <link rel="shortcut icon" href="/favicon.png"><!-- Favicon -->
+
+        <!--css-->
+        <link rel='stylesheet' id='wocudi_style-css'  href='/css/style.css' type='text/css' media='all' />
+
+        <!--JS-->
+        <script type='text/javascript' src='/js/modernizr.js'></script>
+        <script type='text/javascript' src='/js/jquery.js'></script>
+        <script type='text/javascript' src='/js/validizr.js'></script>
+        <script type='text/javascript' src='/js/ninjaSlider.min.js'></script>
+        <script type='text/javascript' src='/js/script.js'></script>
+
+
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wocodui.cl/xmlrpc.php?rsd" />
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wocodui.cl/wp-includes/wlwmanifest.xml" /> 
+
     </head>
     <body>
-        <header id="main-header">
-            <h1>kglhgl</h1>
+        <header id="header" class="blue">
+            <div class="row">
+                <nav class="bluenav">
+                    <ul>
+                        <li class="active"><a class="active" href="http://wopatec.cl" rel="index" title="Ir al Inicio">Inicio</a></li>
+                        <li class="active"><a href="http://wopatec.cl/programa/" rel="section" title="Ir a Programa">Programa</a></li>
+                        <li class="active"><a href="http://wopatec.cl/expositores/" rel="section" title="Ir a Expositores">Expositores</a></li>
+                        <li class="active"><a href="http://wopatec.cl/lugar/" rel="section" title="Ir a Lugar">Lugar</a></li>
+                        <li class="active"><a href="http://wopatec.cl/novedades/" rel="section" title="Ir a Novedades">Novedades</a></li>
+                        <li class="active"><a href="http://wopatec.cl/contacto/" rel="section" title="Ir a Contacto">Contacto</a></li>
+                        <li class="active"><a href="http://wopatec.cl/instituciones/" rel="section" title="Ir a Instituciones">Instituciones</a></li>
+                    </ul>
+                </nav>
+
+                <menu id="contenedor-nav-mobile" class="menu-mobile-only">
+                    <select id="select-navigator" class="nav-onlytablet-phones" name="navigation">
+                        <option selected="selected" value="http://wopatec.cl">Inicio</option>
+                        <option value="http://wopatec.cl/programa/">Programa</option>
+                        <option value="http://wopatec.cl/expositores/">Expositores</option>
+                        <option value="http://wopatec.cl/lugar/">Lugar</option>
+                        <option value="http://wopatec.cl/novedades/">Novedades</option>
+                        <option value="http://wopatec.cl/contacto/">Contacto</option>
+                        <option value="http://wopatec.cl/instituciones/">Instituciones</option>
+                    </select>
+                </menu><!-- /.menu-mobile-only-->
+            </div>
         </header>
-        <div class="container">
-            <h2></h2>
-        </div>
+
         <footer id="main-footer">
         </footer>
     </body>
